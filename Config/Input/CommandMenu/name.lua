@@ -1,1 +1,0 @@
-return _('Command menu')
