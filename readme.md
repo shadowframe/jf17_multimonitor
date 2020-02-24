@@ -2,7 +2,7 @@
 
 ## Monitorsetup DCS
 
-C:\Users\janwe\Saved Games\DCS\Config\MonitorSetup\JF17.lua
+C:\Users\<YOUR_USERNAME>\Saved Games\DCS\Config\MonitorSetup\JF17.lua
 
 ## Musteranpassungen
 
