@@ -4,6 +4,9 @@
 
 C:\Users\<YOUR_USERNAME>\Saved Games\DCS\Config\MonitorSetup\JF17.lua
 
+![Windows Monitor Setup](screen_win_monitor.png)
+![DCS Monitor Setup](screen_dcs_settings.png)
+
 ## Musteranpassungen
 
 ### MFCD zur Anzeige bringen
