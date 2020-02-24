@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource version="2.3.0.1" xmlns="http://www.wxwidgets.org/wxxrc">
+    <object class="wxMenu" name="ID_FILE_MENU">
+        <object class="wxMenuItem" name="ID_LOAD_MODEL">
+            <label>Load model ...\tCtrl-O</label>
+        </object>
+        <object class="wxMenuItem" name="ID_ADD_MODEL">
+            <label>Add model ...\tAlt-O</label>
+        </object>
+        <object class="wxMenuItem" name="ID_LOAD_ANIMATION">
+            <label>Load animation ...\tCtrl-Shift-A</label>
+        </object>
+        <object class="separator">
+        </object>
+        <object class="wxMenuItem" name="ID_PROGRAM_EXIT">
+            <label>Exit</label>
+        </object>
+    </object>
+</resource>
