@@ -13,6 +13,9 @@ DCSWorld\Mods\aircraft\JF-17\Cockpit\Scripts\MFCD\MFCD_init_LEFT.lua
 DCSWorld\Mods\aircraft\JF-17\Cockpit\Scripts\MFCD\MFCD_init_RIGHT.lua
 
 try_find_assigned_viewport('LEFT_MFCD') wurde auskommentiert
+try_find_assigned_viewport('RIGHT_MFCD') wurde auskommentiert
+try_find_assigned_viewport('CENTER_MFCD') wurde auskommentiert
+
 
 ### Trimmung anzeigen
 
