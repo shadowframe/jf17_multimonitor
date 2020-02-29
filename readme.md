@@ -7,7 +7,7 @@ C:\Users\<YOUR_USERNAME>\Saved Games\DCS\Config\MonitorSetup\JF17.lua
 ![Windows Monitor Setup](screen_win_monitor.png)
 ![DCS Monitor Setup](screen_dcs_settings.png)
 
-## Musteranpassungen
+## JF-17 Musteranpassungen
 
 ### MFCD zur Anzeige bringen
 
@@ -28,4 +28,11 @@ local cy = 0.2
 local cx = 0
 
 Damit man die Trimmung (STRG + ENTER) auf dem Monitor sehen kann.
+
+## DCS-BIOS
+
+1. Install DCS-BIOS https://github.com/DCSFlightpanels/dcs-bios MASTER
+2. Kopieren der scripts Ordner und export.lua
+3. connect-serial-port aus dem Verzeichnis ausführen!
+4. DCS-BIOS mit der TF51 testen. Bindings von der P51
 
