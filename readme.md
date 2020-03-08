@@ -55,3 +55,19 @@ Damit man die Trimmung (STRG + ENTER) auf dem Monitor sehen kann.
 ## MAX487 Schaltplan mit Master und Slave
 
 ![Gesamtschaltplan](master_slave_max487.jpg)
+
+[Quelle](https://forums.eagle.ru/showthread.php?t=243611)
+
+## Nutzbare PINS am Slave (Arduino Nano)
+
+![Slave Belegung](slave_pin.png)
+
+2 ist belegt, dient der seriellen Kommunikation
+
+Somit verbleiben Digital PIN D3 - D13 = 11
+
+Analog PIN A0 - A7 = 8
+
+Ground wird eigentlich für fast sämtliche Digital Pin Anschlüsse wie Schalter, Taster etc.. benötigt, muss daher irgendwie auf Streifenraster o.ä. rausgeführt werden.
+
+5V des Arduinos wird z.B. für Potentiometer, also in Verbindung mit den Analog Pins benötigt.
