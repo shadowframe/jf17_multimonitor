@@ -72,6 +72,17 @@ Ground (Blau) wird eigentlich für fast sämtliche Digital Pin Anschlüsse wie S
 
 5V (Gelb) des Arduinos wird z.B. für Potentiometer, also in Verbindung mit den Analog Pins benötigt.
 
+### Analog als digital nutzen
+
+The NANO has 8 analog Inputs and 12 digital Inputs/Outputs.
+Analog-Pins A0 to A5 can we use to connect one Pot (a Pot-entiometer is a variable Resistor) or **Switch** each. If we connect Push-Buttons or Switches to these Pins, they have to act like digital Inputs. This - the behavior of a Pin - *is managed by the code*.
+
+Es handelt sich dann um Inputs! LED etc... dürfte nicht funktionieren.
+
+[Quelle](https://forums.eagle.ru/showthread.php?p=3292776)
+
+Also können wir 6 Analoge Pins auch als Digitale nutzen.
+
 ## Belegungen kurz und knapp
 
 Um schnell und einfach addieren zu können wieviele Anschlüsse man an Ground und 5 Volt sowie Digital- und Analogpins benötigt
