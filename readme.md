@@ -64,10 +64,10 @@ Damit man die Trimmung (STRG + ENTER) auf dem Monitor sehen kann.
 
 2 ist belegt, dient der seriellen Kommunikation
 
-Somit verbleiben Digital PIN D3 - D13 = 11
+Somit verbleiben Digital (Pink) PIN D3 - D13 = 11
 
-Analog PIN A0 - A7 = 8
+Analog (Grün) PIN A0 - A7 = 8
 
-Ground wird eigentlich für fast sämtliche Digital Pin Anschlüsse wie Schalter, Taster etc.. benötigt, muss daher irgendwie auf Streifenraster o.ä. rausgeführt werden.
+Ground (Blau) wird eigentlich für fast sämtliche Digital Pin Anschlüsse wie Schalter, Taster etc.. benötigt, muss daher irgendwie auf Streifenraster o.ä. rausgeführt werden.
 
-5V des Arduinos wird z.B. für Potentiometer, also in Verbindung mit den Analog Pins benötigt.
+5V (Gelb) des Arduinos wird z.B. für Potentiometer, also in Verbindung mit den Analog Pins benötigt.
