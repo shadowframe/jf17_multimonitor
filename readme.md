@@ -2,7 +2,7 @@
 
 ## Monitorsetup DCS
 
-C:\Users\<YOUR_USERNAME>\Saved Games\DCS\Config\MonitorSetup\JF17.lua
+C:\Users\<YOUR_USERNAME>\Saved Games\DCS\Config\MonitorSetup\ [JF17.lua](JF17.lua) diese Config Datei nicht verwechseln mit der JF-17 für DCS-BIOS, beide liegen hier in der Dokumentation ab 
 
 ![Windows Monitor Setup](screen_win_monitor.png)
 ![DCS Monitor Setup](screen_dcs_settings.png)
@@ -37,7 +37,7 @@ Damit man die Trimmung (STRG + ENTER) auf dem Monitor sehen kann.
 2. Kopieren der scripts Ordner und export.lua
 3. connect-serial-port aus dem Verzeichnis ausführen!
 4. DCS-BIOS mit der TF51 testen. Bindings von der P51
-5. Geänderte [JF17.lua](JF17.lua) nutzen durch kopieren in  ....\Scripts\DCS-BIOS\lib 
+5. Geänderte [JF-17.lua](JF-17.lua) nutzen durch kopieren in  ....\Scripts\DCS-BIOS\lib (Nicht verwechseln mit der JF17.lua welche dem Multimonitorsetup dient!)
 
 ## Browserplugin
 
