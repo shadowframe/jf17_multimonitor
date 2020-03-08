@@ -71,3 +71,22 @@ Analog (Grün) PIN A0 - A7 = 8
 Ground (Blau) wird eigentlich für fast sämtliche Digital Pin Anschlüsse wie Schalter, Taster etc.. benötigt, muss daher irgendwie auf Streifenraster o.ä. rausgeführt werden.
 
 5V (Gelb) des Arduinos wird z.B. für Potentiometer, also in Verbindung mit den Analog Pins benötigt.
+
+## Belegungen kurz und knapp
+
+Um schnell und einfach addieren zu können wieviele Anschlüsse man an Ground und 5 Volt sowie Digital- und Analogpins benötigt
+
+Bezeichnung | Digital | Analog | Ground | 5 Volt
+-------- | -------- | -------- | -------- | --------
+On - Off Schalter | 1 |  | 1 | 
+On - Off - On Schalter   | 2 | | 1 | 
+Drehschalter | 2 - n |  | 1 | 
+Poti | | 1 | 1 | 1
+Rotary Encoder | 2 | | 1 | 
+On - Off Taster | 1 | | 1 | 
+LED mit 200 Ohm Widerstand | 1 | | 1 | 
+
+Angaben basierend auf [dem userguide zu dcs bios 0.7](http://dcs-bios.a10c.de/docs/v0.7.0/userguide.html#_arduino_library_reference)
+
+
+
